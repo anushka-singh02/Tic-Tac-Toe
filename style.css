@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color : rgb(56,64,95);
+    text-align: center;
+}
+
+.boxes{
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5%;
+    margin-left: 34%;
+    margin-top: 1.5%;
+    
+}
+
+
+button{
+    background-color: rgb(148,191,190);
+    height: 20vh;
+    width: 20vh;
+    margin-right: 2%;
+    border: none;
+    border-radius: 5%;
+    font-size: 45px;
+    color: rgb(20,52,43);
+}
+.reset{
+    background-color: rgb(14,19,31);
+    height: 5vh;
+    width: 9vh;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 10%;
+    margin-left: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner{
+    height: 90vh;
+    margin-top: 30vh;
+}
+
+.winner button{
+    background-color: rgb(14,19,31);
+    height: 7vh;
+    width: 12vh;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 10%;
+    margin-left: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner h1{
+    color: rgb(186,183,0);
+}
+.hide{
+    display: none;
+}
+
